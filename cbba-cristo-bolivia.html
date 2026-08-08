@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristo de la Concordia - Cochabamba, Bolivia</title>
+    <!-- Tailwind CSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-sky-700 flex items-center gap-2">
+                <i class="fa-solid fa-mountain-sun"></i> Cristo de la Concordia
+            </a>
+            <div class="hidden md:flex gap-8 font-medium text-slate-600">
+                <a href="#inicio" class="hover:text-sky-600 transition">Inicio</a>
+                <a href="#historia" class="hover:text-sky-600 transition">Historia</a>
+                <a href="#actividades" class="hover:text-sky-600 transition">Qué hacer</a>
+                <a href="#informacion" class="hover:text-sky-600 transition">Información</a>
+            </div>
+            <a href="#informacion" class="bg-sky-600 hover:bg-sky-700 text-white px-5 py-2.5 rounded-full font-semibold shadow-md transition transform active:scale-95">
+                Visítanos
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-16 bg-cover bg-center" style="background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url('https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=1920');">
+        <div class="max-w-4xl mx-auto text-center text-white px-6">
+            <span class="inline-block bg-sky-500/30 text-sky-200 border border-sky-400/30 px-4 py-1.5 rounded-full text-sm font-semibold tracking-wide uppercase mb-4 backdrop-blur-sm">
+                Cochabamba, Bolivia
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">
+                El Guardián del Valle
+            </h1>
+            <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl mx-auto">
+                Descubre uno de los monumentos más imponentes de Sudamérica. Ubicado en el cerro San Pedro, ofreciendo una vista panorámica panorámica de 360° de la ciudad.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#actividades" class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-3.5 rounded-full font-semibold shadow-lg transition">
+                    Explorar Atracciones
+                </a>
+                <a href="#historia" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 backdrop-blur-sm px-8 py-3.5 rounded-full font-semibold transition">
+                    Conocer Historia
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datos Rápidos (Tarjetas flotantes) -->
+    <section class="max-w-6xl mx-auto px-6 -mt-16 relative z-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4">
+            <div class="w-14 h-14 rounded-full bg-sky-100 text-sky-600 flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-ruler-vertical"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-slate-800">40.44 m</h3>
+                <p class="text-slate-500 text-sm">Altura total con el pedestal</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4">
+            <div class="w-14 h-14 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-mountain"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-slate-800">2,840 m</h3>
+                <p class="text-slate-500 text-sm">Sobre el nivel del mar</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4">
+            <div class="w-14 h-14 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-2xl font-bold">
+                <i class="fa-solid fa-stairs"></i>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold text-slate-800">1,399</h3>
+                <p class="text-slate-500 text-sm">Escescalones para subir a pie</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia & Detalles -->
+    <section id="historia" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-sky-600 font-bold uppercase tracking-wider text-sm">Patrimonio Cultural</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mt-2 mb-6">
+                    Una obra monumental de fe y arquitectura
+                </h2>
+                <p class="text-slate-600 leading-relaxed mb-4">
+                    Iniciada en 1987 y terminada en 1994, la estatua fue diseñada por los hermanos César y Wálter Terrazas Pardo. Representa la hospitalidad de la ciudad de Cochabamba con sus brazos abiertos extendidos en dirección al valle.
+                </p>
+                <p class="text-slate-600 leading-relaxed mb-6">
+                    Supera en altura a la célebre estatua del Cristo Redentor de Río de Janeiro, convirtiéndose en un ícono no solo religioso sino turístico a nivel internacional.
+                </p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-slate-700 font-medium">
+                        <i class="fa-solid fa-circle-check text-sky-600"></i> Vista panorámica de toda la ciudad de Cochabamba.
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700 font-medium">
+                        <i class="fa-solid fa-circle-check text-sky-600"></i> Posibilidad de ascender al interior de la estructura.
+                    </li>
+                    <li class="flex items-center gap-3 text-slate-700 font-medium">
+                        <i class="fa-solid fa-circle-check text-sky-600"></i> Accesible vía teleférico, gradas o transporte.
+                    </li>
+                </ul>
+            </div>
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=800" alt="Vista del Cristo de la Concordia" class="rounded-3xl shadow-2xl object-cover w-full h-[450px]">
+                <div class="absolute -bottom-6 -left-6 bg-sky-600 text-white p-6 rounded-2xl shadow-lg hidden sm:block">
+                    <p class="text-3xl font-bold">265 Toneladas</p>
+                    <p class="text-sky-100 text-sm">Peso aproximado del monumento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Llegar / Actividades -->
+    <section id="actividades" class="bg-slate-100 py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Formas de Ascender</h2>
+                <p class="text-slate-600 max-w-2xl mx-auto">Elige la experiencia que mejor se adapte a tu estilo de viaje para llegar a la cima del Cerro San Pedro.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Teleférico -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-sky-100 text-sky-600 rounded-xl flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-cable-car"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">Teleférico</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        La opción más popular. Disfruta de un recorrido aéreo desde la av. Heroínas hasta la cima en pocos minutos.
+                    </p>
+                    <span class="text-xs font-semibold text-sky-600 bg-sky-50 px-3 py-1 rounded-full">Recomendado</span>
+                </div>
+
+                <!-- Caminata / Gradas -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-xl flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-person-walking-luggage"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">Caminata por Gradas</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Para amantes del deporte y la aventura. Más de 1,300 escalones rodeados de vegetación y miradores.
+                    </p>
+                    <span class="text-xs font-semibold text-amber-600 bg-amber-50 px-3 py-1 rounded-full">Deportivo</span>
+                </div>
+
+                <!-- Vehículo -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-xl flex items-center justify-center text-xl mb-6">
+                        <i class="fa-solid fa-car"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">Transporte Terrestre</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                        Puedes tomar un taxi o transporte público que te llevará directamente hasta el parqueo principal.
+                    </p>
+                    <span class="text-xs font-semibold text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Cómodo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información de Visita -->
+    <section id="informacion" class="py-20 px-6 max-w-5xl mx-auto">
+        <div class="bg-sky-900 text-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">Planifica tu visita</h3>
+                    <p class="text-sky-200 text-sm mb-6">
+                        Te recomendamos visitar durante las primeras horas de la mañana o al atardecer para disfrutar de las mejores luces e increíbles fotografías.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-regular fa-clock text-sky-400 text-lg mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-sm">Horarios de Atención</p>
+                                <p class="text-xs text-sky-200">Lunes a Domingo: 08:00 - 18:00</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-sky-400 text-lg mt-1"></i>
+                            <div>
+                                <p class="font-semibold text-sm">Ubicación</p>
+                                <p class="text-xs text-sky-200">Cima del Cerro San Pedro, Cochabamba</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/10 p-6 rounded-2xl border border-white/10 backdrop-blur-sm flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Consejos Rápidos</h4>
+                        <ul class="text-xs text-sky-100 space-y-2 list-disc list-inside">
+                            <li>Lleva protector solar y sombrero.</li>
+                            <li>Lleva suficiente agua para el camino.</li>
+                            <li>Mantén tus objetos de valor seguros.</li>
+                            <li>Verifica el estado del clima antes de subir.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 Cristo de la Concordia - Cochabamba, Bolivia. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
